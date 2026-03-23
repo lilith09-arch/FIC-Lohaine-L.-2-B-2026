@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(8, 36, 16);
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    color: antiquewhite;
+}
+.classe {
+    position: relative;
+    animation: mover 3s infinite alternate;
+}
+
+@keyframes mover {
+    from {
+        left: 0px;
+    }
+    to {
+        left: 50px;
+    }
+}
+
+.classe2 {
+    font-size: 20px;
+    color: rgb(63, 110, 182);
+    transition: all 0.5s ease;
+}
+
+.classe1 {
+    font-size: 20px;
+    color: brown;
+    position: relative;
+    animation: mover 2.5s infinite alternate;
+}
+
+@keyframes mover {
+    from {
+        left: 0px;
+    }
+    to {
+        left: 50px;
+    }
+}
+
+.classe3 {
+    font-size: 20px;
+    color: aquamarine;
+}
+.classe2 {
+    position: relative;
+    animation: mover 1.5s infinite alternate;
+}
+
+@keyframes mover {
+    from {
+        left: 0px;
+    }
+    to {
+        left: 50px;
+    }
+}
+
+.classe3 {
+    position: relative;
+    animation: mover 1s infinite alternate;
+}
+
+@keyframes mover {
+    from {
+        left: 0px;
+    }
+    to {
+        left: 50px;
+    }
+}
