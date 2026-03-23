@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    color:white;
+}
+.classe {
+    position: relative;
+    animation: mover 3s infinite alternate;
+}
+
+@keyframes mover {
+    from {
+        left: 0px;
+    }
+    to {
+        left: 200px;
+    }
+}
+
+.classe2 {
+    font-size: 20px;
+    color: rgb(63, 110, 182);
+    transition: all 0.5s ease;
+}
+
+.classe3 {
+    font-size: 20px;
+    color: aquamarine;
+}
